@@ -1,18 +1,18 @@
 import React from "react";
 import { Basic } from "../util/User";
-import { Style_Header } from "../util/Style";
+import { FiDownload } from 'react-icons/fi';
 
 export default function Navbar() {
   return (
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav class="">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-8 px-28">
         <a href="https://flowbite.com/" class="flex items-center">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
             class="h-8 mr-3"
             alt="Flowbite Logo"
           />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap">
             {Basic.full_name}
           </span>
         </a>
@@ -39,50 +39,31 @@ export default function Navbar() {
           </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-bold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul class="font-medium gap-6 flex flex-col items-center p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0">
             <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white bg-blue-700 md:hover:underline rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                aria-current="page"
-              >
+              <a href="#" class="">
                 Home
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:hover:underline md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:underline hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
+              <a href="#" class="">
                 Services
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:underline hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Pricing
+              <a href="#" class="">
+                About Me
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:underline hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact
+              <a href="#" class="">
+                Experience
               </a>
             </li>
             <li>
-              <a href="" class={Style_Header.Text}>Download</a>
+              <button class="text-white bg-primary gap-2 items-center py-3 px-4 flex flex-row rounded-full">
+               <FiDownload className="text-primary bg-white text-xl rounded-full w-[30px] p-1 h-[30px]"/> Download CV
+              </button>
             </li>
           </ul>
         </div>
