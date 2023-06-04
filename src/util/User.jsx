@@ -1,7 +1,12 @@
 export const Basic = {
-  full_name: "Avishka Prabath",
+  full_name: "Avishka Prabath!",
+  fname: "Avishka",
+  lname: "Prabath",
   email: "avishka2k@gmail.com",
+  phone: "+94712716098",
   Address: "Rathnapura, Sri Lanka",
+  myLocation: "Rathnapura",
+  languages: "Sinhala, English"
 };
 
 export const Social = [
