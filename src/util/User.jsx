@@ -23,3 +23,30 @@ export const Social = [
     url: "https://www.facebook.com/avishka2k",
   },
 ];
+
+export const MySkills = [
+  {
+    name: "Web",
+    score: "80",
+  },
+  {
+    name: "Mobile App",
+    score: "70",
+  },
+  {
+    name: "Java",
+    score: "70",
+  },
+  {
+    name: "JavaScript",
+    score: "80",
+  },
+  {
+    name: "Jenkins",
+    score: "80",
+  },
+  {
+    name: "Ansible",
+    score: "60",
+  },
+];

@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesItem from "./ServicesItem";
-import { Style } from "../util/Style";
+import { StyleMe } from "../util/Style";
 
 
 function Services() {
@@ -8,10 +8,10 @@ function Services() {
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-8 px-28">
       <div className="flex justify-between items-center w-full mb-titlebottom">
         <div className="">
-          <p className={Style.title_text}>
+          <p className={StyleMe.title_text}>
             Creative Service
           </p>
-          <p className={Style.description}>
+          <p className={StyleMe.description}>
             What can I do for service <br /> clients you
           </p>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Style } from "../util/Style";
+import { StyleMe } from "../util/Style";
 import Info from "./Info";
 import { Basic } from "../util/User";
 
@@ -8,13 +8,13 @@ function AboutMe() {
     <div className="max-w-screen-xl h-screen flex flex-wrap items-center justify-between mx-auto py-8 px-28">
       <div className="">
         <div className="">
-          <p className={Style.title_text}>About Me</p>
-          <p className={Style.description}>
+          <p className={StyleMe.title_text}>About Me</p>
+          <p className={StyleMe.description}>
             I can design world <br /> for leading UI/UX
           </p>
         </div>
         <div className="">
-          <p className={`uppercase mt-10 ${Style.title_text}`}>
+          <p className={`uppercase mt-10 ${StyleMe.title_text}`}>
             personal infos:
           </p>
           <div className="grid grid-cols-2 gap-8 mt-5">

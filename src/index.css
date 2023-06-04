@@ -3,3 +3,21 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+#hexagon {
+  width: 35px;
+  height: 26px;
+  background: red;
+  position: relative;
+}
+
+#hexagon::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 7.5px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid red;
+}
