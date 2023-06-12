@@ -25,7 +25,7 @@ function Skills() {
           <div className="w-full">
             <p className=" text-sm pb-1">{skills.name}</p>
             <div class="w-[25rem] bg-gray rounded-full h-2 mb-4">
-              <div class={`bg-primary w-[${skills.score}%] h-2 rounded-full relative`}>
+              <div style={{width: `${skills.score}%`}} class={`bg-primary h-2 rounded-full relative`}>
                 <div className="w-5 h-5 absolute right-[-8px] top-[-1.5rem]">
                   {skills.score}%
                 </div>
