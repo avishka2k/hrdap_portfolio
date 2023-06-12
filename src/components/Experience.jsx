@@ -33,7 +33,7 @@ function ExperienceItem() {
   return (
     <div className="flex gap-5">
       <div className="">
-        <FaGraduationCap className=" bg-primary bottom-[-2rem] text-white w-14 h-14 p-3 rounded-full" />
+        <FaGraduationCap className="bg-primary bottom-[-2rem] text-white w-14 h-14 p-3 rounded-full" />
       </div>
       <div className="mt-5">
         <p className="uppercase font-semibold mb-4 items-center flex">

@@ -3,7 +3,8 @@ import { RiFacebookFill } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
 import Profile_picture from "../assets/img/Profile_picture.png";
 import { MdDone } from "react-icons/md";
-import { Basic } from "../util/User";
+import { Basic, Social } from "../util/User";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -34,8 +35,15 @@ function Hero() {
           </button>
           Follow Me:
           <div className="flex gap-2 ml-4">
-            <RiFacebookFill className="text-primary border rounded-full p-1 w-6 h-6" />
-            <FiGithub className="text-primary border rounded-full p-1 w-6 h-6" />
+            <a href={Social.linedin}>
+              <FaLinkedinIn className="text-primary border rounded-full p-1 w-6 h-6" />
+            </a>
+            <a href={Social.facebook}>
+              <RiFacebookFill className="text-primary border rounded-full p-1 w-6 h-6" />
+            </a>
+            <a href={Social.github}>
+              <FiGithub className="text-primary border rounded-full p-1 w-6 h-6" />
+            </a>
           </div>
         </div>
       </div>

@@ -6,23 +6,14 @@ export const Basic = {
   phone: "+94712716098",
   Address: "Rathnapura, Sri Lanka",
   myLocation: "Rathnapura",
-  languages: "Sinhala, English"
+  languages: "Sinhala, English",
 };
 
-export const Social = [
-  {
-    name: "Linkedin",
-    url: "https://www.linkedin.com/in/avishkap",
-  },
-  {
-    name: "Github",
-    url: "https://github.com/avishka2k",
-  },
-  {
-    name: "Facebook",
-    url: "https://www.facebook.com/avishka2k",
-  },
-];
+export const Social = {
+  linedin: "https://www.linkedin.com/in/avishkap",
+  github: "https://github.com/avishka2k",
+  facebook: "https://www.facebook.com/avishka2k",
+};
 
 export const MySkills = [
   {
