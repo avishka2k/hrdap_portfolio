@@ -84,7 +84,7 @@ function Contact() {
       <div className="w-full mt-20">
         <iframe
           className="rounded-md border-2 border-primary w-full h-80"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d495.31575058114817!2d80.38448581595352!3d6.7054687042873296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1686588395799!5m2!1sen!2slk"
+          src={Basic.myLocation}
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

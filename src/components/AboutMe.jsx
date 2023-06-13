@@ -33,7 +33,7 @@ function AboutMe() {
             <Info
               props={{
                 info: "Location:",
-                details: Basic.myLocation,
+                details: Basic.Address,
               }}
             />
             <Info

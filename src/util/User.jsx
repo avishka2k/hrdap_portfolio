@@ -5,7 +5,8 @@ export const Basic = {
   email: "avishka2k@gmail.com",
   phone: "+94712716098",
   Address: "Rathnapura, Sri Lanka",
-  myLocation: "Rathnapura",
+  myLocation:
+    "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d495.31575058114817!2d80.38448581595352!3d6.7054687042873296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1686588395799!5m2!1sen!2slk",
   languages: "Sinhala, English",
 };
 
