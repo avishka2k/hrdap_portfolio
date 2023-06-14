@@ -4,7 +4,7 @@ import { FiDownload } from 'react-icons/fi';
 
 export default function Navbar() {
   return (
-    <nav class="fixed bg-black z-[1000] w-full">
+    <nav class="fixed bg-black z-[100] w-full">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-8 px-28">
         <a href="https://flowbite.com/" class="flex items-center">
           <img

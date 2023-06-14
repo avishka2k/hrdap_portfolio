@@ -3,7 +3,7 @@ import { TbWorld } from "react-icons/tb";
 
 function ServicesItem({ props }) {
   return (
-    <div className="aspect-square bg-black rounded-md relative">
+    <div className="aspect-square bg-[#1f2226] rounded-md relative">
       <div className="w-20 h-20 ml-5 relative">
         <div
           className={`opacity-20 w-[4rem] h-[5.5rem] m-auto bg-${props.color}`}
