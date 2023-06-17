@@ -60,25 +60,25 @@ const FilterGallery = () => {
       {/* Render your filter buttons */}
       <div className="gap-12 flex justify-center text-sm mb-10">
         <button
-          className={activeButton === "all" ? "text-primary" : ""}
+          className={activeButton === "all" ? "text-app_primary" : ""}
           onClick={() => handleFilterChange("all")}
         >
           All
         </button>
         <button
-          className={activeButton === "tag1" ? "text-primary" : ""}
+          className={activeButton === "tag1" ? "text-app_primary" : ""}
           onClick={() => handleFilterChange("tag1")}
         >
           Tag 1
         </button>
         <button
-          className={activeButton === "tag2" ? "text-primary" : ""}
+          className={activeButton === "tag2" ? "text-app_primary" : ""}
           onClick={() => handleFilterChange("tag2")}
         >
           Tag 2
         </button>
         <button
-          className={activeButton === "tag3" ? "text-primary" : ""}
+          className={activeButton === "tag3" ? "text-app_primary" : ""}
           onClick={() => handleFilterChange("tag3")}
         >
           Tag 3
@@ -124,7 +124,7 @@ const GalleryItem = ({ item, onReadMore }) => {
           onMouseLeave={handleMouseLeave}
         >
           <img className="w-100 rounded w-full h-auto" src={item.src} alt="" />
-          <div className="hovered-content items-center content-center relative">
+          <div className="hovered-content items-center relative">
             <AiOutlineExpand className="text-3xl mb-5" />
             <div className=" absolute bottom-10">
               <p className="text-center text-2xl font-semibold">
@@ -144,7 +144,7 @@ const GalleryItem = ({ item, onReadMore }) => {
 const Popup = ({ item, onClose }) => {
   return (
     <div className="popup">
-      <div className="popup-content text-primary aspect-square">
+      <div className="popup-content text-app_primary aspect-square">
         <button className="close-button" onClick={onClose}>
           Close
         </button>

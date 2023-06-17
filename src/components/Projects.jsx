@@ -15,7 +15,7 @@ function Projects() {
           </p>
         </div>
         <div className="">
-          <p className="font-light text-gray max-w-md">
+          <p className="font-light text-app_gray max-w-md">
             Promote your blog posts, case udie, and product ounces with the
             branded videos customers come back for services Make the best
             effort.
@@ -23,7 +23,7 @@ function Projects() {
         </div>
       </div>
       <div className="w-full">
-        <FilterGallery/>
+        <FilterGallery />
       </div>
     </div>
   );

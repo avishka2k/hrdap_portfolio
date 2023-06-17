@@ -12,7 +12,7 @@ function Contact() {
         <div className="">
           <p className={StyleMe.title_text}>Contact</p>
           <p className={`${StyleMe.description} mb-5`}>Get we contact work</p>
-          <p className="font-light text-gray w-[28rem] mb-10 mt-5">
+          <p className="font-light text-app_gray w-[28rem] mb-10 mt-5">
             Promote your blog posts, case udie, and product ounces with the
             branded videos customers come back for services Make the best
             effort.
@@ -23,25 +23,25 @@ function Contact() {
                 <input
                   type="text"
                   id="first_name"
-                  className="border text-black text-sm rounded-md  focus:border-primary w-full p-2.5"
+                  className="border text-black text-sm rounded-md  focus:border-app_primary w-full p-2.5"
                   placeholder="Full Name"
                   required
                 />
                 <input
                   type="email"
                   id="first_name"
-                  className="border text-black text-sm rounded-md focus:ring-primary focus:border-primary w-full p-2.5"
+                  className="border text-black text-sm rounded-md focus:ring-app_primary focus:border-app_primary w-full p-2.5"
                   placeholder="Email"
                   required
                 />
               </div>
               <textarea
-                className="mt-5 border text-black text-sm rounded-md active:ring-primary active:border-primary block w-full p-2.5"
+                className="mt-5 border text-black text-sm rounded-md active:ring-app_primary active:border-app_primary block w-full p-2.5"
                 rows="10"
                 placeholder="Massage"
                 required
               ></textarea>
-              <button class="text-white mt-8 bg-primary gap-2 items-center py-3 px-5 flex flex-row rounded-full">
+              <button class="text-app_white mt-8 bg-app_primary gap-2 items-center py-3 px-5 flex flex-row rounded-full">
                 Send Request
               </button>
             </div>
@@ -49,41 +49,43 @@ function Contact() {
         </div>
         <div className="">
           <div className="flex items-center gap-3 mb-5">
-            <IoCall className=" bg-primary bottom-[-2rem] text-white w-14 h-14 p-3 rounded-full" />
+            <IoCall className=" bg-app_primary bottom-[-2rem] text-app_white w-14 h-14 p-3 rounded-full" />
             <div className="">
               <p className=" font-medium">Call</p>
               <a
                 href={`tel:${Basic.phone}`}
-                className="text-gray font-light text-xs"
+                className="text-app_gray font-light text-xs"
               >
                 {Basic.phone}
               </a>
             </div>
           </div>
           <div className="flex items-center gap-3 mb-5">
-            <MdEmail className=" bg-primary bottom-[-2rem] text-white w-14 h-14 p-3 rounded-full" />
+            <MdEmail className=" bg-app_primary bottom-[-2rem] text-app_white w-14 h-14 p-3 rounded-full" />
             <div className="">
               <p className=" font-medium">Email</p>
               <a
                 href={`mailto:${Basic.email}`}
-                className="text-gray font-light text-xs"
+                className="text-app_gray font-light text-xs"
               >
                 {Basic.email}
               </a>
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <MdLocationOn className=" bg-primary bottom-[-2rem] text-white w-14 h-14 p-3 rounded-full" />
+            <MdLocationOn className=" bg-app_primary bottom-[-2rem] text-app_white w-14 h-14 p-3 rounded-full" />
             <div className="">
               <p className=" font-medium">Location</p>
-              <p className="text-gray font-light text-xs">{Basic.Address}</p>
+              <p className="text-app_gray font-light text-xs">
+                {Basic.Address}
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div className="w-full mt-20">
         <iframe
-          className="rounded-md border-2 border-primary w-full h-80"
+          className="rounded-md border-2 border-app_primary w-full h-80"
           src={Basic.myLocation}
           allowfullscreen=""
           loading="lazy"

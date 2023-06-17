@@ -1,10 +1,10 @@
 import React from "react";
 import { Basic } from "../util/User";
-import { FiDownload } from 'react-icons/fi';
+import { FiDownload } from "react-icons/fi";
 
 export default function Navbar() {
   return (
-    <nav class="fixed bg-black z-[100] w-full">
+    <nav class="fixed bg-app_black z-[100] w-full">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-8 px-28">
         <a href="https://flowbite.com/" class="flex items-center">
           <img
@@ -19,7 +19,7 @@ export default function Navbar() {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 ml-3 text-sm text-app_gray-500 rounded-lg md:hidden hover:bg-app_gray-100 focus:outline-none focus:ring-2 focus:ring-app_gray-200 dark:text-app_gray-400 dark:hover:bg-app_gray-700 dark:focus:ring-app_gray-600"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -61,8 +61,9 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <button class="text-white bg-primary gap-2 items-center py-3 px-4 flex flex-row rounded-full">
-               <FiDownload className="text-primary bg-white text-xl rounded-full w-[30px] p-1 h-[30px]"/> Download CV
+              <button class="text-app_white bg-app_primary gap-2 items-center py-3 px-4 flex flex-row rounded-full">
+                <FiDownload className="text-app_primary bg-app_white text-xl rounded-full w-[30px] p-1 h-[30px]" />{" "}
+                Download CV
               </button>
             </li>
           </ul>

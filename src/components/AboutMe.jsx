@@ -68,7 +68,7 @@ function AboutMe() {
             />
           </div>
         </div>
-        <button class="text-white mt-16 bg-primary gap-2 items-center font-semibold text-xl py-3 px-8 flex flex-row rounded-full">
+        <button class="text-app_white mt-16 bg-app_primary gap-2 items-center font-semibold text-xl py-3 px-8 flex flex-row rounded-full">
           Hire Me
         </button>
       </div>

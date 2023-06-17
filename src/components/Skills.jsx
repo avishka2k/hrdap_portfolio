@@ -13,7 +13,7 @@ function Skills() {
           </p>
         </div>
         <div className="">
-          <p className="font-light text-gray max-w-md">
+          <p className="font-light text-app_gray max-w-md">
             Promote your blog posts, case udie, and product ounces with the
             branded videos customers come back for services Make the best
             effort.
@@ -24,8 +24,11 @@ function Skills() {
         {MySkills.map((skills) => (
           <div className="w-full">
             <p className=" text-sm pb-1">{skills.name}</p>
-            <div class="w-[25rem] bg-gray rounded-full h-2 mb-4">
-              <div style={{width: `${skills.score}%`}} class={`bg-primary h-2 rounded-full relative`}>
+            <div class="w-[25rem] bg-app_gray rounded-full h-2 mb-4">
+              <div
+                style={{ width: `${skills.score}%` }}
+                class={`bg-app_primary h-2 rounded-full relative`}
+              >
                 <div className="w-5 h-5 absolute right-[-8px] top-[-1.5rem]">
                   {skills.score}%
                 </div>
