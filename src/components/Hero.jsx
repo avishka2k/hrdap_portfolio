@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { RiFacebookFill } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
 import Profile_picture from "../assets/img/Profile_picture.png";
@@ -6,10 +6,9 @@ import { MdDone } from "react-icons/md";
 import { Basic, Social } from "../util/User";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
-import AutoIncrement from "./NumberIncrement";
+import NumberIncrement from "./NumberIncrement";
 
 function Hero() {
-  
   return (
     <div className="max-w-screen-xl h-screen flex flex-wrap items-center justify-between mx-auto py-8 px-28">
       <div className="bg-app_primary w-[30rem] relative">
@@ -18,7 +17,7 @@ function Hero() {
           <MdDone className=" text-app_primary border-app_primary border-2 rounded-full w-8 h-8 p-1" />
           <div className="">
             <p className="text-2xl">
-              <AutoIncrement target={100} />+
+              <NumberIncrement />+
             </p>
             <p className="text-sm">Completed Projects</p>
           </div>

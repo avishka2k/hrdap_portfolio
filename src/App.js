@@ -23,7 +23,7 @@ function App() {
       <Projects />
       <Testimonials />
       <Contact />
-      <Blogs/>
+      <Blogs />
       <Footer />
     </div>
   );
