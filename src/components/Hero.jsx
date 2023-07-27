@@ -7,8 +7,14 @@ import { Basic, Social } from "../util/User";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import NumberIncrement from "./NumberIncrement";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Hero() {
+  const [typewriter_text] = useTypewriter({
+    words: ["DevOps Engineer", "App Developer", "Web Developer"],
+    loop: 0 | false,
+  });
+
   return (
     <div className="max-w-screen-xl h-screen flex flex-wrap items-center justify-between mx-auto py-8 px-28">
       <div className="bg-app_primary w-[30rem] relative">
@@ -29,13 +35,15 @@ function Hero() {
         </p>
         <p className=" text-6xl font-semibold mb-5">{Basic.full_name}</p>
         <p className="text-3xl font-light mb-5">
-          <Typewriter
+          {typewriter_text}
+          <Cursor cursorColor="#ed5f38" />
+          {/* <Typewriter
             options={{
               strings: ["DevOps Engineer", "App Developer", "Web Developer"],
               autoStart: true,
               loop: true,
             }}
-          />
+          /> */}
         </p>
         <p className=" text-sm text-app_gray">
           There are many variations of sum available <br /> in the galley of
