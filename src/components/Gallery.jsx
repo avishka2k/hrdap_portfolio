@@ -117,13 +117,17 @@ const GalleryItem = ({ item, onReadMore }) => {
   };
   return (
     <div className="basis-1/4 p-2 box-border">
-      <a className="cursor-pointer" onClick={() => onReadMore(item)}>
+      <a href="#" className="cursor-pointer" onClick={() => onReadMore(item)}>
         <div
           className="gallery-item"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <img className="w-100 rounded w-full h-auto" src={item.src} alt="" />
+          <img
+            className="w-100 aspect-square rounded w-full h-auto"
+            src={item.src}
+            alt=""
+          />
           <div className="hovered-content items-center relative">
             <AiOutlineExpand className="text-3xl mb-5" />
             <div className=" absolute bottom-10">
